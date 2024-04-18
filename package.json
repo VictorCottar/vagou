@@ -1,0 +1,27 @@
+{
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.19.2",
+    "express-handlebars": "^7.1.2",
+    "sequelize": "^6.37.3",
+    "sqlite3": "^5.0.0"
+  },
+  "name": "vagou",
+  "version": "1.0.0",
+  "description": "Este sistema é um portal para trabalhadores encontrarem vagas de trabalho.",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js"
+  },
+  "keywords": [
+    "dev",
+    "jobs",
+    "jobs",
+    "oportunity"
+  ],
+  "author": "Victor Cottar <victorcottarms@outlook.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
