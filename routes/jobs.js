@@ -7,7 +7,7 @@ router.post('/add', (req, res) => {
 
     let { title, salary, company, description, email, new_job } = req.body;
 
-    //inserir
+    //insert
     Job.create({
         title,
         description,

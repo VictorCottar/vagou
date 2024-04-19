@@ -12,7 +12,7 @@ app.listen(PORT, function() {
 
 
 // BODY PARSER
-app.use(bodyParser.urlencoded({ extended: false }))
+app.use(bodyParser.urlencoded({ extended: false }));
 
 
 // DB CONNECTION
@@ -31,7 +31,7 @@ app.get('/', (req, res) => {
     res.send("Está funcionando");
 })
 
-router.get('/test', (req, res) => {
+router.post('/test', (req, res) => {
     res.send("Está ffafafuncionando");
 })
 
