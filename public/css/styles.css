@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Anek+Devanagari:wght@100..800&family=Noto+Znamenny+Musical+Notation&family=Roboto&family=Work+Sans&display=swap');
 
-html, body {
+html,
+body {
     margin: 0;
     padding: 0;
     width: 100%;
@@ -8,7 +9,7 @@ html, body {
 }
 
 * {
-    font-family: "Noto Znamenny Musical Notation";  
+    font-family: "Noto Znamenny Musical Notation";
 }
 
 a {
@@ -32,19 +33,30 @@ strong {
 
 #section_top {
     height: 390px;
-    background-image: linear-gradient(to top, #bde2ee, #d4ebfa, #dee9f7, #f1f3fb, #ffffff);
+    background-image: linear-gradient(to top, #daf3fb, #e6f5ff, #f1f8ff, #f9fbff, #ffffff);
 }
 
 #job {
     width: 25rem;
     height: 3rem;
     font-size: 1.4rem;
+    border: 1px solid black;
 }
 
 #button_submit {
+    border: 1px solid black;
     color: black;
 }
 
 #button_submit:hover {
     background-color: white;
+}
+
+#title_mid {
+    margin-top: 6rem;
+}
+
+#title_mid h3 {
+    text-decoration: underline;
+    text-decoration-color: lightblue;
 }
