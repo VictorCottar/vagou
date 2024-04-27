@@ -20,7 +20,7 @@ a:hover {
 }
 
 main {
-    margin-top: 230px;
+    margin-top: 210px;
 }
 
 strong {
@@ -98,9 +98,22 @@ ul {
     border: 1px solid black;
     color: black;
     background-color: lightblue;
-    width: 20rem;
+    width: 22rem;
 }
 
 #button_form:hover {
+    background-color: rgb(222, 247, 255);
+}
+
+#button_back {
+    border-radius: 8px;
+    border: 1px solid black;
+    color: black;
+    background-color: lightblue;
+    width: 22rem;
+    text-decoration: none;
+}
+
+#button_back:hover {
     background-color: rgb(222, 247, 255);
 }

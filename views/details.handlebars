@@ -1,0 +1,25 @@
+<main>
+  <div id="job-view-container" class="container d-flex  justify-content-center align-items-center">
+    <div class="row text-center p-5  mb-3" style="border: 2px solid black; border-radius: 8px; width: 60%;">
+
+
+      <div id="company-container" class="d-flex justify-content-center mb-2">
+        <p class="fs-1"> <strong>{{job.dataValues.company}}</strong></p>
+      </div>
+      <div class="col-md-12">
+        <h1 class="main-color mt-2"> {{job.dataValues.title}}</h1>
+        <div class="mt-4">
+            <p class="fs-3">Descrição da Vaga</p>
+            <p class="fs-5">{{job.dataValues.description}}. O salário informado da vaga é de R${{job.dataValues.salary}}.</p>   
+        </div>
+        <p class="fs-3">    
+          Para trabalhar na
+          <span class="main-color">{{job.dataValues.company}}</span>
+          envie um email para
+          <a href="mail.to">{{job.dataValues.email}}</a>
+        </p>
+        <a id="button_back" class="fs-3 p-2"  href="/">Voltar para Vagas</a>
+      </div>
+    </div>
+  </div>
+</main>
