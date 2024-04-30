@@ -11,7 +11,7 @@
   "description": "Este sistema é um portal para trabalhadores encontrarem vagas de trabalho.",
   "main": "app.js",
   "engines": {
-    "node": "14.x"
+    "node": "20.x"
   },
   "scripts": {
     "dev": "nodemon app.js",
